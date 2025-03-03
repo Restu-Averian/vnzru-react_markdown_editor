@@ -18,16 +18,16 @@
   ],
   "types": "dist/index.d.ts",
   "author": "Restu Averian Putra <restuaverianputra123@gmail.com>",
-  "main": "dist/vnzru-markdown_editor.cjs.js",
-  "module": "dist/vnzru-markdown_editor.es.js",
+  "main": "dist/vnzru-react_markdown_editor.cjs.js",
+  "module": "dist/vnzru-react_markdown_editor.es.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Restu-Averian/vnzru-markdown-editor"
+    "url": "https://github.com/Restu-Averian/vnzru-react_markdown_editor"
   },
-  "homepage": "https://github.com/Restu-Averian/vnzru-markdown-editor#readme",
+  "homepage": "https://github.com/Restu-Averian/vnzru-react_markdown_editor#readme",
   "scripts": {
     "dev": "vite",
-    "build": "rm -rf node_modules/.vite && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

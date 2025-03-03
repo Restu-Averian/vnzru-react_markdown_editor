@@ -7,7 +7,7 @@ import { copyFileSync } from "fs";
 export default defineConfig({
   plugins: [
     react(),
-    visualizer({ open: true }),
+    visualizer({ open: false }),
     {
       name: "copy-types",
       closeBundle: () => {
@@ -21,9 +21,9 @@ export default defineConfig({
     sourcemap: false,
     lib: {
       entry: "src/index.jsx", // Entry point utama
-      name: "vnzru-markdown_editor",
+      name: "vnzru-react_markdown_editor",
       formats: ["es", "cjs", "umd"], // Format output yang umum digunakan
-      fileName: (format) => `vnzru-markdown_editor.${format}.js`,
+      fileName: (format) => `vnzru-react_markdown_editor.${format}.js`,
     },
     rollupOptions: {
       external: [
