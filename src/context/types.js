@@ -4,7 +4,7 @@
  *
  * @property {(param: { format:string, formatSuffix?:string; allowSuffixEmpty?: boolean } )=>void} onFormat
  *
- * @property {()=>{ beforeSelected:string; selectedText:string; beforeSelected:string; selectionStart: number; selectionEnd: number; value: string   }} onGetTextData
+ * @property {()=>{ beforeSelected:string; selectedText:string; selectionStart: number; selectionEnd: number; value: string   }} onGetTextData
  *
  * @property {(e: React.KeyboardEvent)=>void} onKeyDown
  *
