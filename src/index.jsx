@@ -5,7 +5,7 @@ import EditorToolbar from "./components/EditorToolbar";
 import EditorPreview from "./components/EditorPreview";
 import EditorPreviewContextProvider from "./context/EditorPreviewContextProvider";
 
-const VNZRU_MarkdownEditor_ = (
+const VNZRU_ReactMarkdownEditor_ = (
   {
     customActions = [],
     updateWhen = {
@@ -43,5 +43,5 @@ const VNZRU_MarkdownEditor_ = (
   );
 };
 
-const VNZRU_MarkdownEditor = memo(forwardRef(VNZRU_MarkdownEditor_));
-export default VNZRU_MarkdownEditor;
+const VNZRU_ReactMarkdownEditor = memo(forwardRef(VNZRU_ReactMarkdownEditor_));
+export default VNZRU_ReactMarkdownEditor;

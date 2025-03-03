@@ -8,7 +8,7 @@
  *
  * @property {(e: React.KeyboardEvent)=>void} onKeyDown
  *
- * @property {import("vnzru-markdown_editor").customActionsProps[]} customActionDatas
+ * @property {import("vnzru-react_markdown_editor").customActionsProps[]} customActionDatas
  */
 
 /**
@@ -18,7 +18,7 @@
  *
  * @property {import("react").Dispatch<import("react").SetStateAction<string>>} setValue
  *
- * @property {import("vnzru-markdown_editor").updateWhenProps} updateWhen
+ * @property {import("vnzru-react_markdown_editor").updateWhenProps} updateWhen
  */
 
 export {};

@@ -1,4 +1,4 @@
-declare module "vnzru-markdown_editor" {
+declare module "vnzru-react_markdown_editor" {
   import { ReactNode, TextareaHTMLAttributes } from "react";
 
   export type customActionsProps = {
@@ -68,13 +68,15 @@ declare module "vnzru-markdown_editor" {
     | { type: "direct" | "blur" }
     | { type: "delay"; time?: number };
 
-  export type VNZRU_MarkdownEditorProps =
+  export type VNZRU_ReactMarkdownEditorProps =
     TextareaHTMLAttributes<HTMLTextAreaElement> & {
       customActions: customActionsProps[];
       updateWhen: updateWhenProps;
     };
 
-  const VNZRU_MarkdownEditor: (props: VNZRU_MarkdownEditorProps) => ReactNode;
+  const VNZRU_ReactMarkdownEditor: (
+    props: VNZRU_ReactMarkdownEditorProps
+  ) => ReactNode;
 
-  export default VNZRU_MarkdownEditor;
+  export default VNZRU_ReactMarkdownEditor;
 }
