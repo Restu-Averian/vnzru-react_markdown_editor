@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useRef, useState } from "react";
+import { createContext, useContext, useMemo, useRef } from "react";
 import { toLowerCase } from "../helpers";
 import { listToolbar } from "../constants";
 
