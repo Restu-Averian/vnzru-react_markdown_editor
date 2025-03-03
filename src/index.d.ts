@@ -1,6 +1,7 @@
 declare module "vnzru-react_markdown_editor" {
-  import { ReactNode, TextareaHTMLAttributes } from "react";
+  import { Options } from "react-markdown";
 
+  import { ReactNode, TextareaHTMLAttributes } from "react";
   export type customActionsProps = {
     /**
      *
@@ -72,6 +73,15 @@ declare module "vnzru-react_markdown_editor" {
     TextareaHTMLAttributes<HTMLTextAreaElement> & {
       customActions: customActionsProps[];
       updateWhen: updateWhenProps;
+
+      /**
+       * @description
+       * Allows to customize preview of markdown
+       *
+       * @example
+       * previewObj={use all of react-markdown props like object}
+       */
+      previewObj?: Options;
     };
 
   const VNZRU_ReactMarkdownEditor: (

@@ -11,6 +11,7 @@ const VNZRU_ReactMarkdownEditor_ = (
     updateWhen = {
       type: "direct",
     },
+    previewObj,
     ...props
   },
   ref
@@ -37,7 +38,7 @@ const VNZRU_ReactMarkdownEditor_ = (
       <EditorPreviewContextProvider updateWhen={updateWhen}>
         <Editor {...props} />
 
-        <EditorPreview />
+        <EditorPreview {...previewObj} />
       </EditorPreviewContextProvider>
     </EditorContextProvider>
   );
